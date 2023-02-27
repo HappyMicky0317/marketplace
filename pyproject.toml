@@ -1,0 +1,19 @@
+[tool.poetry]
+name        = "marketplace"
+version     = "0.1.1"
+description = "ERC721 and ERC1155 smart contract marketplace"
+authors     = ["Rumble League Studios <hello@rl.games>"]
+license     = "MIT"
+
+[tool.poetry.dependencies]
+python      = ">=3.7.2,<3.10"
+
+[tool.poetry.dev-dependencies]
+black       = "21.11b1"
+eth-brownie = "1.17.2"
+pytest = "6.2.5"
+mypy = "0.931"
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
